@@ -1,0 +1,38 @@
+{
+  "name": "chatwebapp",
+  "version": "1.0.0",
+  "description": "Boilerplate for Express and React",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "server": "nodemon src\\js\\server\\server.js"
+  },
+  "proxy": "http://localhost:5000",
+  "author": "Hamed Diakite",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "concurrently": "^5.0.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "html-webpack-plugin": "^3.2.0",
+    "net": "^1.0.2",
+    "nodemon": "^2.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "tls": "0.0.1",
+    "webpack": "^4.41.2",
+    "webpack-merge": "^4.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-preset-env": "^1.7.0",
+    "nodemon-webpack-plugin": "^4.2.1",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
